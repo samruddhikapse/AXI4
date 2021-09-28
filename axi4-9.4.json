@@ -1,0 +1,13 @@
+{signal: [
+  {name: 'CSYSREQ', wave: '01....', data:[""] },
+  {name: 'CACTIVE', wave: '0.1...', data:[""]},
+  {name: 'CSYSACK', wave: '0..1..', data:[""]},
+  {name: 'CLK', wave: 'p.....'},
+  ],
+  head:{
+  tick:'0 T1  T2  T3 T4'},
+  foot:{
+  text:'Figure A9-4 System lock controller initiated exit from low power state'
+  }
+  
+  }

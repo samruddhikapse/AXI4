@@ -1,0 +1,15 @@
+{signal: [
+
+  {name: "CSYSREQ",  wave: "0.1|",  data:[""]},
+  {name: "CACTIVE",  wave: "01.|.",  data:[""]},
+  {name: "CSYSACK",  wave: "0..|1",  data:[""]},
+  {name: "CLK",      wave: "0p.|..",  data:[""]},
+
+  ],
+
+  head:{
+   tick: '0 T1  T2 T3 T4',
+ },
+ foot:{
+   text:'Figure A9-5 Perihearl initiated exit from low power state',
+ },}
